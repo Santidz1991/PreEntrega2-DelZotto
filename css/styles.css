@@ -74,6 +74,11 @@ nav select {
     justify-content: flex-end;
 }
 
+.div-nav-buttons .nav-button:hover{
+    color: var(--Very-dark-blue);
+    background-color: var(--White);
+}
+
 @media (max-width: 580px){
     .navbar{
         display: flex;
@@ -87,7 +92,7 @@ nav select {
         height: 60%;
         display: inline-block;
         color: var(--White);
-        background-color: var(--Dark-blue);
+        background-color: var(--Very-dark-blue);
     }
 }
 
@@ -175,17 +180,33 @@ nav select {
     background-color: var(--White);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cont-button{
-    color: var(--Dark-blue);
     font-size: 120%;
-    margin-left: 70px;
     color: var(--White);
     background-color: var(--Very-dark-blue);
     border-radius: 5px;
     padding: 10px;
+}
+
+.cont-button:hover{
+    color: var(--Dark-blue);
+    background-color: var(--Soft-blue);
+}
+
+.blog-continent-bar{
+    width: 100%;
+    height: 80px;
+    background-color: var(--White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 580px){   
@@ -193,7 +214,7 @@ nav select {
     nav .cont-select {
         width: 100%;
         color: var(--White);
-        background-color: var(--Dark-blue);
+        background-color: var(--Very-dark-blue);
         display: inline-block; 
     }
 }
@@ -220,6 +241,7 @@ nav select {
 }
 
 .post-card img{
+    width: 100%;
     height: 50%;
 }
 
@@ -237,9 +259,29 @@ nav select {
     border: 2px solid var(--Very-dark-blue);
 }
 
-.filter-button{
+.filter-button-new{
     border-right: 1px solid var(--Very-dark-blue);
     padding-right: 5px;
+}
+
+.filter-button-new:hover{
+    color: var(--White);
+    background-color: var(--Very-dark-blue);
+}
+
+.filter-button-old:hover{
+    color: var(--White);
+    background-color: var(--Very-dark-blue);
+}
+
+.filter-button-new:focus{
+    color: var(--White);
+    background-color: var(--Very-dark-blue);
+}
+
+.filter-button-old:focus{
+    color: var(--White);
+    background-color: var(--Very-dark-blue);
 }
 
 #article-first-section{
