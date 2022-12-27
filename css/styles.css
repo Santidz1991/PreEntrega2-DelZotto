@@ -23,6 +23,7 @@
     --Desaturated-blue: hsl(235, 45%, 61%);
     --Pale-Blue: hsl(236, 100%, 87%);
     --White: white;
+    --Black: Black;
 }
 
 body{
@@ -240,6 +241,15 @@ nav select {
     cursor: pointer;
 }
 
+.post-card:hover{
+    background-color: var(--Pale-Blue);
+}
+
+.post-card a {
+    text-decoration: none;
+    color: var(--Black);
+}
+
 .post-card img{
     width: 100%;
     height: 50%;
@@ -326,6 +336,17 @@ nav select {
     }
 }
 
+#about-me-article{
+    font-size: large;
+    line-height : 30px;
+}
+
+#contact-h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .contact-container {
     width: 100%;
     display: flex;
@@ -361,7 +382,7 @@ input[type=submit]:hover {
 }
 
 .form-input{
-    width: 250%;
+    width: 500%;
 }
 
 #googleMap img{
