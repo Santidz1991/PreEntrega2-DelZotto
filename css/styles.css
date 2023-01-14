@@ -31,7 +31,7 @@ a {
     --Black: Black;
 }
 
-body{
+body{ 
     background: rgb(64,84,113);
     background: linear-gradient(180deg, rgb(55, 79, 116) 0%, rgb(72, 144, 97) 50%, rgba(166,187,141,1) 100%);
     font-family: 'Rubik', sans-serif;
